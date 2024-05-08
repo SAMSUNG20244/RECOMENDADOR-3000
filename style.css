@@ -1,0 +1,46 @@
+:root{
+    --primary-color: #f72585;
+    --primary-soft-color: #7209b7;
+    --background-color: #480ca8;
+    --secondar-soft-color: #4361ee;
+    --secondary-color: #4cc9f0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 56, 141);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: firebrick;
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+
+button {
+    background-color: #119200;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#recommendations {
+    margin-top: 20px;
+    background-color: orangered;
+}
+
